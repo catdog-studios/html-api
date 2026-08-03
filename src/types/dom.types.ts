@@ -223,7 +223,7 @@ export interface IFormAttributes {
 }
 // ------------------------------------------------------------------------------------------------
 export interface IDOMElement
-  extends IGlobalAttributes, IMicrodataAttributes, IDOMEvents {
+  extends IGlobalAttributes, IMicrodataAttributes {
   placeholder?: string;
   autocapitalize?: string;
   autocorrect?: string;
