@@ -139,7 +139,7 @@ export interface IFormAttributes {
     formnovalidate?: boolean;
     formtarget?: string;
 }
-export interface IDOMElement extends IGlobalAttributes, IMicrodataAttributes, IDOMEvents {
+export interface IDOMElement extends IGlobalAttributes, IMicrodataAttributes {
     placeholder?: string;
     autocapitalize?: string;
     autocorrect?: string;
