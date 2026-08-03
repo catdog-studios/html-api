@@ -1,0 +1,46 @@
+{
+  "name": "@kaax/types",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catdog-studios/kaax-types.git"
+  },
+  "keywords": [
+    "kaax",
+    "typescript",
+    "types"
+  ],
+  "author": "Cat Dog Studios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catdog-studios/kaax-types/issues"
+  },
+  "homepage": "https://github.com/catdog-studios/kaax-types#readme",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vue": "^3.0.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "vue": {
+      "optional": true
+    }
+  }
+}
